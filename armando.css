@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Road+Rage&display=swap');
+* {
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    width:100%;
+    height:auto;
+    flex-direction: column;
+    background-image: url("./img/background.png");
+    background-position: center;
+}
+
+.div-principal{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:60px;
+}
+
+h1{
+    font-family:'Road Rage', cursive;
+    color: #FFD000;
+    font-size: 4.5rem;
+}
+
+.div-container{
+    width:47%;
+    height:auto;
+    border: solid 3px #FAFAFA;
+    background-color:#FAFAFA;
+    border-radius: 8px;
+    margin-top:50px;
+}
+
+.paragrafo-icon{
+    font-size: 0.8rem;
+    margin: 10px 10px 5px 10px;
+    padding: 10px;
+
+}
+
+.div-icon{
+    display:flex;
+    padding:10px;
+}
+
+.div-texto{
+    font-size: 0.9rem;
+    margin: 20px;
+}
+
+.div-botao{
+    justify-content: flex-end;
+    margin-top: auto;
+    margin-bottom: 24px;
+    flex-grow: 1;
+}
+
+.botao{
+    width:79px;
+    height:22px;
+    background-color:#FAFAFA;
+    color:#115FA7;
+    border: 2px solid #115FA7;
+    border-radius: 3px;
+    margin: 10px;
+    font-weight:bold;
+
+}
+
+.botao{
+    cursor:pointer;
+}

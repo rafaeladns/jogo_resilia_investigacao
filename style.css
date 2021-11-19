@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Road+Rage&display=swap');
+* {
+    font-family:'Road Rage', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    display:flex;
+    width:100vw;
+    height:100vh;
+    flex-direction: column;
+    background-image: url("./img/background.png");
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    color:#FFD000;
+    font-size:5.0rem;
+}
+
+h5{
+    font-family:'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;
+    color:white;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:0.7rem;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.principal{
+    display:flex;
+   flex-direction: row;
+   margin:0 auto;
+}
+.div-imagens{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    margin:0 20px;
+}
+.img-personagem{
+    width:200px;
+    height:200px;
+}
+
+
+
+.img-personagem:hover{
+    border:solid 12px #12b51d;
+    border-radius: 100px;
+    
+
+}
+
+span{
+    font-size:2.0rem;
+    color:white;
+    margin-top:10px;
+    text-align: center;
+}
+
+
+
+footer{
+    margin-top:auto;
+    text-align:center;
+}
+
+.escolha{
+    font-size:2.0rem;
+    color:white;
+    text-align: center;
+    margin-bottom:25px;
+}
+
+.p-footer{
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin:10px;
+    color:white;
+}
