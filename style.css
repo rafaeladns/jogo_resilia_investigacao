@@ -92,3 +92,36 @@ footer{
     margin:10px;
     color:white;
 }
+
+@media(max-width:1200px){
+    h5{
+        width:80%;
+        font-size:0.8rem;
+        text-align:center;
+        margin:auto;
+    }
+
+    h1{
+        font-size:3.0rem;
+        width:80%;
+        margin:auto;
+    }
+
+    .principal{
+        height:auto;
+        flex-direction:column
+    }
+
+    .escolha{
+        font-size:1.3rem;
+        width:80%;
+        margin:auto;
+        padding:10px;
+    }
+
+
+    .p-footer{
+        font-size:0.5rem;
+        height:auto;
+
+}
