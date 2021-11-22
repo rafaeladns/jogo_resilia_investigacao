@@ -78,3 +78,7 @@ body{
 .img-gameover{
     padding: 16px 16px;
 }
+
+p{
+    text-align: center;
+}
