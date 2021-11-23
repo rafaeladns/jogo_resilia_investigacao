@@ -79,3 +79,28 @@ body{
 .img-medalha{
     padding: 16px 16px;
 }
+
+@media(max-width:1200px){
+    .h1-venceu{
+        font-size:2.0rem;
+    }
+
+    .h1-principal{
+        font-size:3rem;
+    }
+
+    .div-principal{
+        width:100%;
+        height:auto;
+    }
+
+    .div-container{
+        padding-top:20px;
+        width:70%;
+        height:auto;
+    }
+
+    .p-descricao{
+        font-size:0.7rem;
+    }
+}

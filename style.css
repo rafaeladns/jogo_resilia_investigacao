@@ -109,8 +109,14 @@ footer{
 
     .principal{
         height:auto;
-        flex-direction:column
+        flex-direction:column;
+       
     }
+
+    .div-imagens{
+        margin-top: 15px;
+    }
+
 
     .escolha{
         font-size:1.3rem;
