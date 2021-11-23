@@ -88,4 +88,12 @@ h1{
     .div-container{
         width:100%;
     }
+
+    p{
+        font-size:0.7rem;
+    }
+
+    .paragrafo-icon{
+        font-size:0.6rem;
+    }
 }
