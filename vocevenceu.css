@@ -80,6 +80,14 @@ body{
     padding: 16px 16px;
 }
 
+footer{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:0.7rem;
+    margin:10px;
+}
+
 @media(max-width:1200px){
     .h1-venceu{
         font-size:2.0rem;

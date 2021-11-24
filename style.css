@@ -117,12 +117,16 @@ footer{
         margin-top: 15px;
     }
 
+    .img-personagem{
+        width:100px;
+        height:100px;
+    }
 
     .escolha{
         font-size:1.3rem;
         width:80%;
         margin:auto;
-        padding:10px;
+        
     }
 
 

@@ -78,6 +78,14 @@ h1{
     cursor:pointer;
 }
 
+footer{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:0.7rem;
+    margin:10px;
+}
+
 @media(max-width:1200px){
 
 
