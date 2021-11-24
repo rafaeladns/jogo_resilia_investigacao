@@ -3,7 +3,7 @@ function responder(){
     while(resposta !=1 || resposta != 2){
     resposta = prompt ("Digite uma opção")
     if(resposta == 2){
-    window.location.href = "./fase3denis.html"
+    window.location.href = "./vocevenceudenis.html"
     break
     }else if(resposta == 1){
     window.location.href = "./gameover2denis.html"

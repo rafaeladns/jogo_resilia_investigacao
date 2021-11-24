@@ -88,13 +88,18 @@ footer{
 
 @media(max-width:1200px){
 
-
     h1{
         font-size:3.0rem;
+        margin:0;
+    }
+
+    .div-principal{
+        margin:20px;
     }
 
     .div-container{
         width:100%;
+        margin-top:50px;
     }
 
     p{
